@@ -12,7 +12,7 @@ function main() {
 	const website = process.argv[2];
 
 	console.log("Website: " + website);
-	crawlPage(website);
+	crawlPage(website, website,{});
 }
 
 main();
